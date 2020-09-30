@@ -27,9 +27,9 @@ class Car {
         Log.i(TAG, "start: Car is started..")
 //engine.startEngine()
     }
-    @Inject
-    fun enableRemote(remote: Remote)
-    {
-        remote.setListerner(this)
-    }
+//    @Inject
+//    fun enableRemote(remote: Remote)
+//    {
+//        remote.setListerner(this)
+//    }
 }
