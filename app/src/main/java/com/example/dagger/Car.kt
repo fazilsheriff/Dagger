@@ -27,6 +27,7 @@ class Car {
         Log.i(TAG, "start: Car is started..")
 //engine.startEngine()
     }
+    //Method injection
     @Inject
     fun enableRemote(remote: Remote)
     {
