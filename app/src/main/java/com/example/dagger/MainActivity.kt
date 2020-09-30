@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         var component:CarComponent =DaggerCarComponent.create()
-//        component.inject(this)
+        component.inject(this)
 
         car=component.getCar()
         car.start()

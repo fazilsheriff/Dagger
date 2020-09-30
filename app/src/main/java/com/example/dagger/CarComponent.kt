@@ -8,6 +8,6 @@ public interface CarComponent {
 
     fun getCar():Car
 
-//    fun  inject(mainActivity: MainActivity)
+    fun  inject(mainActivity: MainActivity)
 
 }
