@@ -25,12 +25,13 @@ class Car {
     fun start()
     {
         Log.i(TAG, "start: Car is started..")
-//engine.startEngine()
+        engine.start()
     }
     //Method injection
     @Inject
     fun enableRemote(remote: Remote)
     {
+
         remote.setListerner(this)
     }
 }

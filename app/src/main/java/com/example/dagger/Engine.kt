@@ -2,9 +2,8 @@ package com.example.dagger
 
 import javax.inject.Inject
 
-class Engine {
+interface Engine {
 
-    @Inject
-    constructor()
+   fun start()
 
 }

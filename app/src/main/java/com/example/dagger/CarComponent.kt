@@ -3,7 +3,7 @@ package com.example.dagger
 import dagger.Component
 import javax.inject.Inject
 
-@Component(modules = [WheelModule::class])
+@Component(modules = [WheelModule::class,DieselEngineModule::class])
 public interface CarComponent {
 
     fun getCar():Car
