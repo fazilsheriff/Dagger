@@ -7,7 +7,6 @@ class Wheel {
     lateinit var rims: Rims
 
 
-@Inject
     constructor(tyres: Tyres,rims: Rims)
     {
         this.rims=rims

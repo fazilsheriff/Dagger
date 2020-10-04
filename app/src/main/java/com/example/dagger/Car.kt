@@ -10,9 +10,9 @@ class Car {
     lateinit var tyres: Tyres
     lateinit var rims: Rims
 @Inject
-    constructor(engine: Engine, wheel: Wheel) {
+    constructor(engine: Engine) {
         this.engine = engine
-        this.wheel = wheel
+//        this.wheel = wheel
     }
 //    @Inject
 //    constructor(tyres: Tyres,rims: Rims,engine: Engine)
