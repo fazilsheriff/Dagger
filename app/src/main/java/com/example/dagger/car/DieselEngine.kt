@@ -5,10 +5,12 @@ import javax.inject.Inject
 
 class DieselEngine : Engine {
     private  val TAG = "DieselEngine"
-    @Inject
-    constructor()
+      val horsePower:Int
+    constructor(horsePower: Int) {
+        this.horsePower = horsePower
+    }
 
     override fun start() {
-        Log.i(TAG, "Diesel Engine Started!!")
+        Log.i(TAG, "Diesel Engine Started!!. Horse Power"+horsePower)
     }
 }
