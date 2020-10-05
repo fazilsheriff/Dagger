@@ -1,9 +1,9 @@
-package com.example.dagger
+package com.example.dagger.car
 
 import android.util.Log
 import javax.inject.Inject
 
-class DieselEngine :Engine {
+class DieselEngine : Engine {
     private  val TAG = "DieselEngine"
     @Inject
     constructor()
